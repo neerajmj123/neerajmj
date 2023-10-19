@@ -3,10 +3,11 @@
     margin: 0;
     box-sizing: border-box;
 }
-form label,input{
-    display: block;
-
+label  {
+    align-items: center;
+    margin-left: 90px;
 }
+
 .head{
     background-color: orange;
     color: yellow;
@@ -16,5 +17,16 @@ form label,input{
 .body{
     background-color: darkblue;
     color: yellow;
+    padding: 5px;
     
+}
+.btn
+{
+    background-color: orange;
+    height: 30px;
+    padding: 5px;
+    text-align: center;
+}
+.btn1{
+    margin-right: 5px;
 }
