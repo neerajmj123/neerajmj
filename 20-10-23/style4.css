@@ -17,21 +17,26 @@
     border-width: 5px;
     
 }
-p{
+#para{
     font-size: 25px;
     color: #f08804;
     display: inline;
-    padding: 10px;
+    
 }
 ul li a{
     text-decoration: none;
     color: white;
+    display: inline;
     
 }
 ul li{
     display: inline;
-    margin-left: 200px;    
+    margin-left:100px;   
 }
-span{
-    margin-left: 5px;
+.btn{
+    margin-left: 1px;
+}
+.nav{
+    margin-left: 2px;
+    
 }
