@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.head{
+    width: 100rem;
+    border: 2px solid red;
+}
+.body{
+    width: 10em;
+    border: 2px solid green;
+
+}
+.body1{
+    position: sticky;
+    border: 2px solid black;
+    top: 0;
+    background-color: aquamarine;
+}
