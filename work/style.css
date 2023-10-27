@@ -3,3 +3,132 @@
     padding: 0;
     box-sizing: border-box;
 }
+.t1{
+    background-color: rgb(14,48,81);
+    color: white;
+    text-align: center;
+}
+nav{
+    display: flex;
+    background-color: black;
+    color: white;
+    justify-content: space-between;
+
+}
+.left{
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+}
+.left select{
+    border: none;
+    color: white;
+    background: none; 
+    margin: 0px;
+    padding: 0px;
+}
+.left img{
+    margin-left: 5px;
+}
+.right{
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+}
+.store{
+    display: flex;
+    font-size: 12px;
+    align-items: center;
+    padding: 10px;
+}
+.s1{
+    border-right: 2px solid white;
+
+}
+.contactus{
+    display: flex;
+    font-size: 12px;
+    align-items: center;
+    padding: 10px;
+}
+.c1{
+    border-right: 2px solid white;
+}
+.login{
+    display: flex;
+    font-size: 12px;
+    align-items: center;
+    padding: 10px;
+}
+.l1{
+    border-right: 2px solid white;
+
+}
+.like{
+    padding: 10px;
+    display: flex;
+    font-size: 12px;
+    align-items: center;
+
+
+}
+.l2{
+    border-right: 2px solid white;
+    color:black;
+}
+.cart{
+    padding: 10px;
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+}
+
+.second{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.m{
+    margin: 10px;
+}
+.w{
+    margin: 10px;
+
+}
+.b{
+    margin: 10px;
+
+}
+.g{
+    margin: 10px;
+
+}
+.n{
+    margin: 10px;
+
+}
+.s{
+    margin: 10px;
+
+}
+.sa{
+    margin: 10px;
+
+}
+.third{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    
+}
+.input1{
+    
+}
+.four{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 200px;
+}
