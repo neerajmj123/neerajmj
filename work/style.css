@@ -177,7 +177,7 @@ font-family: 'Poppins', sans-serif;
 .girls{
     padding-right: 1%;
 }
-.g{
+.g1{
     text-align: center;
     font-size: 18px;
     margin-top: 20px;
@@ -194,6 +194,7 @@ font-family: 'Poppins', sans-serif;
 }
 .app_download{
     background-color: rgb(249,231,159);
+    justify-content: space-evenly;
 }
 .app_download_container{
     display: flex;
@@ -233,5 +234,96 @@ font-family: 'Poppins', sans-serif;
 .playstore{
     width: 118px;
     height: 35px;
+}
+.qrcode{
+    display: flex;
+    justify-content: space-evenly;
+}
+.app_qrcode{
+    margin-top: 30px;
+    margin-left: 60px;
+}
+.qr{
+    text-align: center;
+}
+.app_qrcode p{
+    font-size: 10px;
+    margin: 6px 0 14px 10px;
+}
+.divider{
+   margin-left: 20px;
+   margin-top: 20px;
+}
+.collection_head{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+.ch{
+    font-size: 28px;
+font-family: 'Poppins', sans-serif;
+margin-bottom: 10px;
+margin-top: 10px;
+}
+.cp{
+    font-family: 'Poppins', sans-serif;
+    font-size: 13px;
+}
+.collection_head2{
+    margin-bottom: 21px;
+}
+.collection_head2_1{
+display: flex;
+justify-content: center;
+margin-top: 10px;
+}
+.collection_head2_2{
+    display:flex;
+}
+.collection_head2_3{
+    display: flex;
+    justify-content: center;
+}
+.btn1{
+display: flex;
+justify-content: center;
+margin-right:80px;
+background-color: transparent;
+border: 0;
+font-size: 14px;
+font-family: 'Poppins', sans-serif;
+
+}
+.btn2{
+    font-size: 14px;
+    margin-right:80px;
+background-color: transparent;
+border: 0;
+font-family: 'Poppins', sans-serif;
+}
+.collection_photo{
+    display: flex;
+    
+}
+.collection_photo_1{
+    margin: 20px;
+}
+.collection_photo_1_1{
+    margin: 20px;
+}
+.collection_photo_1_2{
+    margin: 20px;
+}
+.more_styles{
+    background-color: rgb(14,48, 81);
+}
+.more_styles_1{
+    text-align: center;
+    color: rgb(255, 223, 0);
+    font-size: 28px;
+    margin-bottom: 40px;
+font-family: 'Poppins', sans-serif;
+
 
 }
