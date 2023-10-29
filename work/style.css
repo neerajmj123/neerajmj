@@ -87,6 +87,10 @@ nav{
     display: flex;
     justify-content: space-around;
 }
+.first img{
+    display: flex;
+    justify-content: center;
+}
 
 .second{
     display: flex;
@@ -322,8 +326,111 @@ font-family: 'Poppins', sans-serif;
     text-align: center;
     color: rgb(255, 223, 0);
     font-size: 28px;
+    margin-top: 20px;
     margin-bottom: 40px;
+    padding-top: 40px;
 font-family: 'Poppins', sans-serif;
+}
+.more_styles_3{
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-evenly
+}
+.more_styles_4{
+    display: flex;
+    justify-content:space-evenly;
+}
+.more_styles_5{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+    margin-left: 50px;
 
+
+}
+.more_styles_4_1{
+    display: flex;
+}
+.btn4{
+    font-size: 14px;
+font-family: 'Poppins', sans-serif;
+margin-right: 60px;
+background-color: transparent;
+color: white;
+border: 0px;
+}
+.btn5{
+    font-size: 14px;
+font-family: 'Poppins', sans-serif;
+margin-right: 60px;
+background-color: transparent;
+color: white;
+border: 0px;
+}
+.btn6{
+    font-size: 14px;
+font-family: 'Poppins', sans-serif;
+margin-right: 60px;
+background-color: transparent;
+color: white;
+border: 0px;
+}
+.btn7{
+    font-size: 14px;
+font-family: 'Poppins', sans-serif;
+margin-right: 60px;
+background-color: transparent;
+color: white;
+border: 0px;
+}
+.btn8{
+    font-size: 14px;
+font-family: 'Poppins', sans-serif;
+margin-right: 60px;
+background-color: transparent;
+color: white;
+border: 0px;
+}
+.photo_morestyle{
+    display: flex;
+    justify-content: center;
+    margin-left: 5px;
+}
+.photo_morestyle_1{
+    display: flex;
+}
+.photo_morestyle_1_1{
+    margin-right: 10px;
+}
+.photo_morestyle_1_2{
+    margin-right: 10px;
+}
+.text_more_style{
+    color: white;
+font-family: 'Poppins', sans-serif;
+}
+.nine_box_main{
+    display: flex;
+    background-color: rgb(14,48, 81);
+margin-top: 40px;
+}
+.nine_box_1{
+    color: rgb(255, 223, 0);
+font-family: 'Poppins', sans-serif;
+margin-left: 100px;
+padding-top: 40px;
+font-size: 28px; 
+display: flex;
+}
+.nine_box_1_1{
+    display: flex;
+}
+.nine_box_right{
+    padding-top: 49px;
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+    display: flex;
+font-family: 'Poppins', sans-serif;
+margin-left: 550px;
 
 }
