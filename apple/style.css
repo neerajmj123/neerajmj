@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    background-color: rgba(22, 22, 23, .8);
+}
+.head_1_1{
+    display: flex;
+    justify-content: space-around;
+}
+.head_1_1 li{
+    color: white;
+}
