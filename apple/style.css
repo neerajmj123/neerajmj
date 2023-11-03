@@ -216,6 +216,9 @@ nav{
 .box_4{
     display: flex;
     margin-top: 15px; 
+    margin-left: 15px;
+    margin-right: 15px;
+    margin: 15px;
     justify-content: center;
 }
 .box_4_left{
@@ -268,7 +271,34 @@ nav{
     display: flex;
     justify-content: center;
     width: 935px;
-    height: 125px;
-    margin-top: 450px;
-    
+    height: 580px;
+}
+.textpic{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: -525px;
+    margin-top: 60px;
+}
+.headline_4_1{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 42px;
+    margin-left: -785px;
+    margin-top: -45px;
+    font-family: 'Heebo', sans-serif; 
+
+}
+.subhead{
+    color: red;
+    display: flex;
+    font-size: 16px;
+    justify-content: center;
+    align-items: center;
+    margin-left: -820px;
+    font-family: 'Heebo', sans-serif;
+    margin-top: -10px; 
 }
