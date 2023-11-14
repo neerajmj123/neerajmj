@@ -1,0 +1,24 @@
+:root{
+    --primary-color : red;
+    --danger-color : blue;
+    --sucess-color : green;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 100vw;
+    height: 80vh;
+    margin: auto;
+    border: 2px solid black;
+    background-color: burlywood;
+    display: flex;
+    justify-content: space-evenly;
+}
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: aquamarine;
+}
