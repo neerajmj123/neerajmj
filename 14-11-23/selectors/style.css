@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+div ul li p {
+    color: red;
+}
+
+div > p {
+    color: rgb(0, 0, 255);
+}
+
+div + p  {
+    color: rgb(76, 226, 43);
+}

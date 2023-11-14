@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 50vw;
+    margin: auto;
+    padding: 20px;
+    border: 2px solid rgb(255, 153, 0);
+}
+
+form input {
+    margin: 20px;
+    font-size: 25px;
+    border-radius: 8px;
+}
+
+input[type='text'] {
+    color: blue;
+    border: 2px solid rgb(255, 0, 0);
+}
+
+input[type='email'] {
+    color: blueviolet;
+    border: 2px solid rgb(226, 43, 122);
+}
+input[type='submit']{
+    color: black;
+    border: 2px solid yellow;
+}
+a{
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+}
+
+a[href] {
+    background-color: antiquewhite;
+}
+
+a[target='_blank'] {
+    background-color: green;
+}
+
+a[target="_self"] {
+    background-color: orange;
+}
+
+ul{
+    border: 2px solid red;
+    text-align: center;
+    padding: 20px;
+    list-style: none;
+}
+
+ul li {
+    margin: 20px;
+}
+
+li:nth-child(odd) {
+    color: blue;
+}
+
+li:nth-child(even) {
+    color: red;
+}
+
+li:nth-child(3) {
+    background-color: aquamarine;
+}
+li:nth-child(5){
+    background-color: aquamarine;
+}
+li:nth-child(9){
+    background-color: aquamarine;
+}
+li:nth-child(2n+0) {
+    background-color: black;
+}
+li:nth-child(3n+1) {
+    background-color:rosybrown;
+}
