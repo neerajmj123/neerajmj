@@ -117,7 +117,7 @@
     justify-content: center;
     align-items: center;
 
-    transition: all 4s ease-in-out 0s;
+    transition: all 1s ease-in-out 1s;
 
 }
 .box3:hover{
@@ -126,5 +126,7 @@
     transform: skew(40deg);
     transform: scale(4);
     transform: translate(200px);
+    transform: skew(-60deg);
+    transform: rotate(1440deg);
     
 }
