@@ -56,3 +56,10 @@ let length1 = str.toLocaleLowerCase()
     let charAt =str.charAt(0);
     console.log("charAt")
 }
+{
+    let fruit ="apple";
+    console.log("fruit:",fruit);
+    console.log("window.fruit:",window.fruit);
+     fruit="orange";
+     console.log("fruit:",fruit);
+}
