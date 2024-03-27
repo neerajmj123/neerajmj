@@ -6,6 +6,9 @@ import appleIcon from "./images/icons8-apple-50.png"
 import macBook from "./images/macbook.jpg"
 import imac from "./images/imac.jpg"
 import watch from "./images/watch.jpg"
+import airpod from './images/airpod.jpg'
+import ipad from './images/ipad.jpg'
+
 function App() {
 
 
@@ -49,7 +52,7 @@ function App() {
             <a href="#" className='text-sky-600 mx-5 text-4xl'>Buy</a>
           </div> 
         </div>
-        <div className='relative flex  '>
+        <div className='relative'>
           <img src={macBook} className='h-screen w-full object-cover' alt="" />
           <div className='  absolute  left-0  top-28 right-0 text-center'>
             <h2 className='text-black font-semibold text-9xl'>MacBook</h2>
@@ -58,10 +61,44 @@ function App() {
             <a href="#" className='text-sky-600 mx-5 text-4xl'>Order Now</a>
           </div>
         </div>
-        <div className='flex justify-between w-full'>
-          <img src={imac} className='flex-1 w-full' alt="" />
-          <img src={watch} className='flex-1 w-full' alt="" />
-        
+        <div className='grid grid-cols-1 md:grid-cols-2 '>
+          <div className='relative'>
+          <img src={imac} className='w-full object-cover' alt="" />
+          <div className='  absolute  left-0  top-1 right-0 text-center'>
+            <h4 className='text-black font-semibold text-7xl'>iMac</h4>
+            <h3 className='text-black text-4xl mt-2'>Packed with more juice.</h3>
+            <a href="#" className='text-sky-600 mx-5 text-3xl'>Learn more</a>
+            <a href="#" className='text-sky-600 mx-5 text-3xl'>Order Now</a>
+          </div>
+          </div>
+          <div className=' relative'>
+          <img src={watch} className='w-full object-cover' alt="" />
+          <div className='  absolute  left-0  top-6 right-0 text-center'>
+            <h4 className='text-white font-semibold text-5xl'>WATCH</h4>
+            <h4 className='text-red-500 font-medium  text-3xl'>SERIES 9</h4>
+            <h3 className='text-white text-4xl mt-2'>Smarter. Brighter. Mightier.</h3>
+            <a href="#" className='text-sky-600 mx-5 text-3xl'>Learn more</a>
+            <a href="#" className='text-sky-600 mx-5 text-3xl'>Order Now</a>
+          </div>
+          </div>
+          <div className='relative'>
+          <img src={airpod} className='' alt="" />
+          <div className='  absolute  left-0  top-7 right-0 text-center'>
+            <h4 className='text-white font-semibold text-5xl'>AirPods Pro</h4>
+            <h3 className='text-white text-4xl mt-2'>Adaptive Audio. Now playing.</h3>
+            <a href="#" className='text-sky-600 mx-5 text-3xl'>Learn more</a>
+            <a href="#" className='text-sky-600 mx-5 text-3xl'>Order Now</a>
+          </div>
+          </div>
+          <div className='relative'>
+          <img src={ipad} className='' alt="" />
+          <div className='  absolute  left-0  top-1 right-0 text-center'>
+            <h4 className='text-black font-semibold text-7xl'>iPad</h4>
+            <h3 className='text-black text-4xl mt-2'>Lovable. Drawable. Magical.</h3>
+            <a href="#" className='text-sky-600 mx-5 text-3xl'>Learn more</a>
+            <a href="#" className='text-sky-600 mx-5 text-3xl'>Order Now</a>
+          </div>
+          </div>
         </div>
       </div>
       
